@@ -9,13 +9,19 @@ const GlitchText: React.FC<GlitchTextProps> = ({ text, fontSize = "text-6xl md:t
   const [glitchActive, setGlitchActive] = useState(false);
 
   useEffect(() => {
-    // Random glitch effect
-    const glitchInterval = setInterval(() => {
-      setGlitchActive(true);
-      setTimeout(() => setGlitchActive(false), 150);
-    }, Math.random() * 3000 + 2000);
+    // Random glitch effect with variable intervals
+    const scheduleNextGlitch = () => {
+      const nextDelay = Math.random() * 4000 + 1000; // Random delay between 1-5 seconds
+      setTimeout(() => {
+        setGlitchActive(true);
+        setTimeout(() => {
+          setGlitchActive(false);
+          scheduleNextGlitch();
+        }, 150);
+      }, nextDelay);
+    };
 
-    return () => clearInterval(glitchInterval);
+    scheduleNextGlitch();
   }, []);
 
   return (
