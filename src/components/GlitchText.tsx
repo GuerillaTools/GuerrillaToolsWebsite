@@ -17,7 +17,7 @@ const GlitchText: React.FC<GlitchTextProps> = ({ text, fontSize = "text-6xl md:t
         setTimeout(() => {
           setGlitchActive(false);
           scheduleNextGlitch();
-        }, 150);
+        }, 300);
       }, nextDelay);
     };
 
