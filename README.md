@@ -70,4 +70,3 @@ For security reasons, the repository does not include the code for our Telegram 
 ---
 
 Thank you for your interest in GuerrillaToolsSite. We look forward to growing and evolving our project with the support of our community!
-```
