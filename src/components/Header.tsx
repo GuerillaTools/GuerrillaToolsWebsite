@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ showHeader }) => {
             <a href="https://t.me/GuerrillaTool" className="text-gray-300 hover:text-green-400 transition-colors">
               <Send size={20} />
             </a>
-            <a href="#" className="text-gray-300 hover:text-green-400 transition-colors">
+            <a href="https://github.com/GuerillaTools" className="text-gray-300 hover:text-green-400 transition-colors">
               <Github size={20} />
             </a>
           </div>
