@@ -24,7 +24,7 @@ function App() {
         <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 to-black/50 z-0"></div>
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=2232&auto=format&fit=crop')] bg-cover bg-center opacity-20 z-[-1]"></div>
         <div className="z-10 text-center">
-          <GlitchText text="GUERILLA TOOLS" />
+          <GlitchText text="GUERRILLA TOOLS" />
           <p className="mt-6 text-green-400 text-lg tracking-wider animate-pulse">COMING SOON</p>
         </div>
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
@@ -71,7 +71,7 @@ function App() {
         
         <FeatureSection 
           title="Community Driven" 
-          description="Power to the people. Developed by and for the community, our bot is simple and almost free. Hold our token and register yourr wallet to launch. It's time to join the revolution."
+          description="Power to the people. Developed by and for the community, our bot is simple and almost free. Hold our token and register your wallet to launch. It's time to join the revolution."
           bulletPoints={[
             "100k for one launch per week",
             "250k for five launches per week",
