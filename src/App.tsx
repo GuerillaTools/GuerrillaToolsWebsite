@@ -51,7 +51,7 @@ function App() {
         <FeatureSection 
           title="Power to the People" 
           description="Flip the script. Our bot lets you launch on pump.fun and snipes the launch with dedicated dev and bundler wallets—no more elite-only launches. Take charge, launch coins, and profit on your terms."
-          imageUrl="/src/assets/monke.jpeg"
+          imageUrl="/assets/monke.jpeg"
           imagePosition="right"
         />
         
@@ -65,7 +65,7 @@ function App() {
         <FeatureSection 
           title="Secure & Anonymous" 
           description="Privacy built-in. Separate wallets keep your personal wallets safe, so you launch, trade, and exit without ever exposing your identity. Security and anonymity come standard."
-          imageUrl="/src/assets/secure.webp"
+          imageUrl="/assets/secure.webp"
           imagePosition="right"
         />
         
@@ -77,7 +77,7 @@ function App() {
             "250k for five launches per week",
             "1M for unlimited launches"
           ]}
-          imageUrl="/src/assets/rocket.jpeg"
+          imageUrl="/assets/rocket.jpeg"
           imagePosition="left"
         />
       </section>
