@@ -34,8 +34,6 @@ To set up a local copy of the site for development or review:
 
 ## Installation
 
-_Include any installation steps or commands specific to your site's stack here. For example:_
-
 ```bash
 # Example for a Node.js project:
 npm install
